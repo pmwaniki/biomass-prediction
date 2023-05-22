@@ -5,7 +5,7 @@
 Clone the project from github.
 
 ```commandline
-https://github.com/pmwaniki/biomass-prediction
+git clone https://github.com/pmwaniki/biomass-prediction
 cd biomass-predictios
 ```
 Conda environment can be set up using the *enviroment.yml* file:
