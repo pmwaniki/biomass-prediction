@@ -1,5 +1,6 @@
-# Africa Biomass Challenge
+# Zindi Africa Biomass Challenge
 
+Predicting biomass using satellite images: https://zindi.africa/competitions/africa-biomass-challenge
 
 ## Setting up/running the scripts
 Clone the project from github.
@@ -156,7 +157,7 @@ def augmentation(config):
     return aug_list
 ```
 ### Hyper-parameter optimization
-The library ray[tune] was sused for hyper-parameter optimization. ASHA algorithm was used to select the best hyper-parameters. The tuned hyper-parameters include:
+The library *ray[tune]* was sused for hyper-parameter optimization. ASHA algorithm was used to select the best hyper-parameters. The tuned hyper-parameters include:
 
 - Learning rate
 - Weight decay
